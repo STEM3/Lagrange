@@ -1,0 +1,215 @@
+body {
+	width: 98%;
+	min-width: 900px;
+	max-width: 1050px;
+	font-family: Baskerville Old Face, Century Gothic, Arial, Cambria, Calibri;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0px auto 0px auto;
+	background-attachment: fixed;
+	border-style:dashed;
+	border-width:5px;
+	background-image: url(http://images.freepicturesweb.com/img1/07/07/14.jpg);
+		background-repeat: repeat;
+}
+
+fieldset {
+  border: 1px dashed #ffffff;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+#b1{
+	width:auto;
+	height:9880px;
+	margin:2px;
+	padding:2px;
+}	
+
+#b3{
+	background-image:url()
+}
+nav.horizontalNAV {
+	margin:2px;
+	position:relative;
+	text-align:center;
+	padding: 0px 80px 0px 0px;
+	filter:alpha (opacity=10);
+	float:center;
+}
+nav.horizontalNAV ul{
+	list-style:none;
+}
+
+nav.horizontalNAV li:hover, li:active {
+	background-color: #5C4591;
+	}
+	
+nav.horizontalNAV li{
+	display: inline-block;
+	background-color: #33334C;
+	padding:12px 7%;
+	margin:-2px;
+	opacity:0.6;
+	filter:alpha (opacity=30);
+}
+
+nav.horizontalNAV li , a {
+	text-align:center;
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+}
+
+#header02 {
+	margin:2px;
+	vertical-align:baseline;
+	height:30px;
+	top:15px;
+	opacity:0.4;
+	filter:screen (opacity=70);
+}
+
+#b2{
+	position:absolute;
+	height:auto;
+	margin:50px 22px 0px 22.5px;
+	padding:5px;
+	height:847px;
+	width:929px;
+	border:1px;
+	border-color:black;
+	border-style:dotted;
+}
+
+p.one_a{
+	line-height:28px;
+	vertical-align:baseline;
+	text-align:left;
+	display:inline-block;
+	font:normal normal normal 17px/1.4em;
+	white-space:nowrap;
+	padding:0 2px;
+	margin:0; border:0;
+	position:absolute;
+	margin-left:20px;
+}	
+p.one_b{
+	line-height:28px;
+	vertical-align:baseline;
+	text-align:left;
+	display:inline-block;
+	font:normal normal normal 17px/1.4em;
+	white-space:nowrap;
+	padding:0 2px;
+	margin:0; border:0;
+	position:absolute;
+	margin-left:260px;
+	}
+p.one_c{
+	line-height:28px;
+	vertical-align:baseline;
+	text-align:left;
+	display:inline-block;
+	font:normal normal normal 17px/1.4em;
+	white-space:nowrap;
+	padding:0 2px;
+	margin:0; border:0;
+	position:absolute;
+	margin-left:500px;
+}
+p.one_d{
+	line-height:28px;
+	vertical-align:baseline;
+	text-align:left;
+	display:inline-block;
+	font:normal normal normal 17px/1.4em;
+	white-space:nowrap;
+	padding:0 2px;
+	margin:0; border:0;
+	position:absolute;
+	margin-left:740px;
+}
+
+.box{
+	padding-top:;
+	padding-bottom:;
+	
+}
+#div_aL1{	
+	background:transparent;
+	-webkit-box-orient:vertical;
+	display:in-block;
+	position:relative;
+	width:48.8%;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+#div_aR1{	
+	background:transparent;
+	display:in-block;
+	position:relative;
+	width:48.8%;
+	left:475px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+p.one_e{
+	padding:5px;
+	background-color:#f0c1e4;
+	opacity:0.6;
+	filter:alpha (opacity=40)
+}
+p.one_e:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+/* =============================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses outline displayed oddly in Chrome
+ */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+a:hover,
+a:active {
+  outline: 0;
+}
