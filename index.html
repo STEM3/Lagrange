@@ -3,11 +3,21 @@
 <head>
 	<meta charset="utf-8">
     	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<link rel="stylesheet" type="text/css" href="life.css">
+    	<style><link rel="stylesheet" type="text/css" href="life.css"></style>
 	<title>11-Lagrange</title>
 	</head>
 <body>
-	<div id="b1">
+	<div id="slideshow">
+	<div>
+	  <img src="http://imgur.com/mllOnRU">
+	</div>
+	<div>
+	  <img src="http://imgur.com/U8PB82y">
+	</div>
+	<div>
+	<img src="http://imgur.com/Jdmh5t3">
+	</div>
+	</div>
 	<div id="b3">
 	<fieldset>
 	<nav class="horizontalNAV">
@@ -27,6 +37,17 @@
 	</p></div>
 	</div>
 	</div>
+	
+	$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(750)
+    .next()
+    .fadeIn(750)
+    .end()
+    .appendTo('#slideshow');
+},  2250);
 	<!--[if !IE]><script>fixScale(document);</script><![endif]-->
 </body>
 </html>
