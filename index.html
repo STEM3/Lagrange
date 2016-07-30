@@ -20,11 +20,32 @@
 	</nav>
 	</fieldset>
 	</div>
-	<div id="slideshow">
-		<div style="top: 10px; left: 10px; right: 10px; bottom: 10px;" >
-			<img  width="840px" height="631.75px" src="http://i.imgur.com/mllOnRU.jpg" title="JOB FAIR SIMULATION DAY (JULY 27 2016)" /></a>
-		</div>
-	</div>
+<style>
+.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+</style>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="http://i.imgur.com/mllOnRU.jpg" style="width:100%">
+  <img class="mySlides" src="http://i.imgur.com/U8PB82y.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
 	<div id="b2">
 	<div id="div_aL1"><p class="one_e">asdfghjkl
 	</p></div>
