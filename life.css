@@ -26,20 +26,17 @@ fieldset {
 	padding:2px;
 }	
 
-#slideshow { 
-    margin: 2px auto -2px auto; 
-    position: relative; 
-    padding: 10px; 
-	width: 840px; 
-	height: 631.75px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-}
+.slide{
+	width:840px;
+	height:631.75px;
+	display:none;
+	}
 
 nav.horizontalNAV {
-	margin:2px;
+	margin:1px;
 	position:relative;
 	text-align:center;
-	padding: 0px 80px 0px 0px;
+	padding: 0px 20px 0px 0px;
 	filter:alpha (opacity=10);
 	float:center;
 }
@@ -54,17 +51,10 @@ nav.horizontalNAV li:hover, li:active {
 nav.horizontalNAV li{
 	display: inline-block;
 	background-color: #33334C;
-	padding:12px 7%;
+	padding:15px 8%;
 	margin:-2px;
 	opacity:0.6;
 	filter:alpha (opacity=30);
-}
-
-nav.horizontalNAV li , a {
-	text-align:center;
-	text-decoration: none;
-	color:white;
-	font-size: 30px;
 }
 
 #header02 {
@@ -147,19 +137,24 @@ p.one_d{
 	-webkit-box-orient:vertical;
 	display:in-block;
 	position:relative;
-	width:48.8%;
+	width:48%;
 	box-sizing:border-box;
 	text-align:center;
 }
 
 #div_aR1{	
 	background:transparent;
-	display:in-block;
+	display:inline-block;
 	position:relative;
-	width:48.8%;
-	left:475px;
+	width:48%;
 	box-sizing:border-box;
 	text-align:center;
+}
+#th{
+	background:transparent;
+	width:45%;
+	text-align:center;
+	padding:1%
 }
 
 p.one_e{
@@ -219,3 +214,4 @@ a:hover,
 a:active {
   outline: 0;
 }
+
